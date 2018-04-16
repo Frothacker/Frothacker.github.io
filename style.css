@@ -11,6 +11,7 @@
 .navbar a{
   color: white;
   padding: 11px 2vw;
+  font-weight: normal;
 }
 
 .navbar a:hover {
@@ -201,7 +202,10 @@ padding-top: 4.5%;
   float: right;
 }
 
-
+.smaller-works i{
+  padding: 3%;
+  text-align: center;
+}
 
 /* styling for smallerworks heading*/
 .smaller-works h2{
