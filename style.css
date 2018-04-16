@@ -108,7 +108,7 @@
 .about h2 {   
   margin: 0%;
   margin-bottom: 5%;
-  font-size: 4.5vw;
+  font-size: 5.5vw;
   font-weight: bold;
 }
 
@@ -180,6 +180,21 @@ padding-top: 4.5%;
 
 .vision .thumbnail{
   margin-bottom: 2.5%;
+}
+
+
+/*skills              --------------------------------------------------*/
+
+.skills{
+  padding: 10%;
+}
+
+.skills h2{
+  
+}
+
+.skills .prorgess{
+
 }
 
 /*WORKS               --------------------------------------------------*/
