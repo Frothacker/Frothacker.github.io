@@ -183,21 +183,12 @@ padding-top: 4.5%;
 }
 
 
-/*skills              --------------------------------------------------*/
-
-.skills{
-  padding: 10%;
-}
-
-.skills h2{
-  
-}
-
-.skills .prorgess{
-
-}
-
 /*WORKS               --------------------------------------------------*/
+
+.works{
+  background-color: #161616;
+  color: #F9FCFC;
+}
 
 .works .thumbnail{
   float: right;
@@ -206,15 +197,25 @@ padding-top: 4.5%;
 .works h2{
   margin: 6%;
   margin-bottom: 8%;
+  color: #F9FCFC;
 }
 
+.works h3{
+  color: #F9FCFC;
+}
 
 
 /*SMALLER WORKS       --------------------------------------------------*/
 
 /*for the whole span*/
+.smaller-works{
+  background-color: #2D2D2F;
+  color: #F9FCFC;
+}
+
 .smaller-works .thumbnail{
   float: right;
+  
 }
 
 .smaller-works i{
@@ -228,7 +229,34 @@ padding-top: 4.5%;
   margin-bottom: 8%;
   font-size: 4vw;
   font-weight: bold;
+  color: #F9FCFC;
 }
+
+/*CONTACT           --------------------------------------------------*/
+
+.contact h1{
+  font-size: 7vw;
+}
+
+#myInput{
+  width: 16em;
+  height: 38px;
+  color: #1BAD81;
+  font-weight: bold;
+  border-radius: 7px;
+  border-color: none;
+}
+
+.icon {
+  font-size: 100px;
+}
+
+.half {
+  font-size: 80px;
+  /*padding: 0%;
+  float: left;*/
+}
+
 
 
 
