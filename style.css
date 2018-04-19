@@ -77,9 +77,9 @@
 
 /* for the individual columns */
 .row .thumbnail{
-  width: 90%;
+  width: 96%;
   height: auto;
-  padding: 2%;
+  padding: 1%;
   padding-bottom: 6%;
   position: static;
 
@@ -236,7 +236,7 @@ padding-top: 4.5%;
 
 .contact h1{
   font-size: 7vw;
-}
+}     
 
 #myInput{
   width: 16em;
@@ -252,10 +252,10 @@ padding-top: 4.5%;
 }
 
 .half {
-  font-size: 80px;
-  /*padding: 0%;
-  float: left;*/
-}
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 100px;
+}     
 
 
 
