@@ -232,6 +232,10 @@ padding-top: 4.5%;
   color: #F9FCFC;
 }
 
+.solidity {
+  height: 100px;
+}
+
 /*CONTACT           --------------------------------------------------*/
 
 .contact h1{
@@ -250,12 +254,6 @@ padding-top: 4.5%;
 .icon {
   font-size: 100px;
 }
-
-.half {
-  position: absolute;
-  margin-top: 1px;
-  margin-left: 100px;
-}     
 
 
 
