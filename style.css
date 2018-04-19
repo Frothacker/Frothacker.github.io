@@ -187,7 +187,7 @@ padding-top: 4.5%;
 
 .works{
   background-color: #161616;
-  color: #F9FCFC;
+  color: #E8EAEA;
 }
 
 .works .thumbnail{
@@ -197,12 +197,16 @@ padding-top: 4.5%;
 .works h2{
   margin: 6%;
   margin-bottom: 8%;
-  color: #F9FCFC;
+  color: #E8EAEA;
 }
 
 .works h3{
-  color: #F9FCFC;
+  color: #E8EAEA;
 }
+
+/*.works .btn {
+  color: #2D2D2F;
+}*/
 
 
 /*SMALLER WORKS       --------------------------------------------------*/
@@ -232,8 +236,12 @@ padding-top: 4.5%;
   color: #F9FCFC;
 }
 
-.solidity {
-  height: 100px;
+.smaller-works img {
+  width: 120px;
+}
+
+.smaller-works a{
+  color: #51A2D1;
 }
 
 /*CONTACT           --------------------------------------------------*/
