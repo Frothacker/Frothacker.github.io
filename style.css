@@ -246,22 +246,75 @@ padding-top: 4.5%;
 
 /*CONTACT           --------------------------------------------------*/
 
+ .contact{
+  text-align: center;
+  padding-top: 6%;
+}
+
 .contact h1{
   font-size: 7vw;
+  padding-bottom: 3%;
+
 }     
 
 #myInput{
   width: 16em;
   height: 38px;
-  color: #1BAD81;
-  font-weight: bold;
-  border-radius: 7px;
-  border-color: none;
+  color: white;
+  background-color: #1BAD81;
+  font-weight: thin;
+  border-radius: 5px;
+  border-color: transparent;
+  padding-left: 3vw;
 }
 
 .icon {
   font-size: 100px;
 }
+
+.contact-icon{
+  width: 40px;
+  margin:0px;
+}
+
+.contact .btn{
+  width: 60vw;
+  height:50px;
+  font-weight: bold;
+  background-color: rgba(45,45,47,0.7);
+  border-color: transparent;
+
+}
+
+.contact .btn:hover{
+  background-color: #1BAD81;
+
+}
+
+.friendster:before{
+  width: 60vw;
+  height:50px;
+  font-weight: bold;
+  
+  border-color: transparent;
+  content: 'Add me on friendster';
+}
+
+.friendster:hover:before{
+    content: "Just kidding";
+    font-size: 20px;
+}
+
+.email:before{
+  content: 'Copy my email';
+}
+
+.contact-icon{
+  font-size: 30px;
+}
+
+
+
 
 
 

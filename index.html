@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
   <link rel="stylesheet" type="text/css" href="custom-css-bootstrap-magic-2018-04-12.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="font-mfizz-2.4.1/font-mfizz.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -21,8 +22,9 @@
     <div>
       <div class="navbar-nav">
         <a class="right" href="#about">About</a>
-        <a class="right" href="#skills">Skills</a>
         <a class="right" href="#works">Works</a>
+        <a class="right" href="#skills">Skills</a>
+        
         <a class="right" href="#contact">Contact</a>
       </div>
     </div>
@@ -219,10 +221,10 @@
     <div class="col-md-6 col-lg-4">
       <div class="thumbnail">
         <div class="icon">
-          <i class="icon-angular icon"></i>
+          <i class="icon-nodejs icon"></i>
         </div>
         <div class="caption">
-          <p>We are sceduled to learn Angular in term 4 of the bootcamp.</p> 
+          <p>We are sceduled to learn NodeJS in term 4 of the bootcamp.</p> 
           <p><a href="https://github.com/Frothacker" class="link" role="link">Check out my github instead</a> </p>
         </div>
       </div>
@@ -246,7 +248,7 @@
             <img class="solidity" src="solidity.png" alt="solidity logo"></i>
         </div>
         <div class="caption">
-          <p>I take pride in learning solidity. I am just a beginner, aiming high. This is my first project. <a href="https://github.com/Frothacker/first-solidity-project" class="link" role="link">Github.</a></p>
+          <p>I take pride in learning solidity. I am just a beginner, but aiming high. This is my first project. <a href="https://github.com/Frothacker/first-solidity-project" class="link" role="link">Github.</a></p>
         </div>
       </div>
     </div>
@@ -254,21 +256,21 @@
   </div> <!-- smallworks div -->
 
 
-
-
-
-<div class="jumbotron contact" id="contact">
+<div class="contact jumbotron" id="contact">
     <div  class="container">
       <h1>Let's talk</h1> 
     
-      <a href="https://www.linkedin.com/in/finn-rothacker" class="btn btn-primary" target="_blank"><i class = "fa fa-linkedin fa-lg"></i> &nbsp;linkedin </a></br></br>
-      <a href="https://github.com/Frothacker" class="btn btn-primary" target="_blank"><i class = "fa fa-github fa-lg" ></i> &nbsp;github</a></br></br>
-    
-      <p><a class="btn btn-primary" onclick="myFunction()">&nbsp;Copy</a>
+      <p><a href="https://www.linkedin.com/in/finn-rothacker" class="btn btn-primary" target="_blank"><i class="fa fa-linkedin contact-icon"></i>Link up</a></p>
 
+      <P><a href="https://github.com/Frothacker" class="btn btn-primary" target="_blank"><i class="fa fa-github contact-icon"></i>Github</a></p>
+      
+      <p><a class=" email btn btn-primary" onclick="myFunction()"><!-- <img class="contact-icon" src="mail-icon.png"> --></a></br></p>
+
+      <p>
       <input type="text" value="finn.rothacker@gmail.com" id="myInput">
       </p>
 
+      <p><a href="#" class="friendster btn btn-primary" target="_blank"></a></p>
       </br></br>
       
 
@@ -277,7 +279,7 @@
         var copyText = document.getElementById("myInput");
         copyText.select();
         document.execCommand("Copy");
-        alert("All copied :) thankyou for checking out my css");
+        alert("'finn.rothacker@gmail.com' copied to clipboard!");
         }
       </script>        
 </div>
